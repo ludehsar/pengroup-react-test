@@ -20,7 +20,7 @@ const ButtonVariants: ButtonVariantsFunction = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary hover:bg-primary/80 text-black",
+        default: "bg-primary hover:bg-primary/80 text-[#061665]",
         outlined:
           "bg-transparent hover:bg-primary/20 text-primary border border-primary",
       },

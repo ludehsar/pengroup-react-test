@@ -1,3 +1,4 @@
+import CampusSection from "@/components/landing/campus-section";
 import CoursesSection from "@/components/landing/courses-section";
 import Header from "@/components/landing/header";
 import HeroSection from "@/components/landing/hero-section";
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroSection />
       <CoursesSection />
       <QuoteSection />
+      <CampusSection />
     </main>
   );
 }
