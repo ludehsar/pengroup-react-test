@@ -18,7 +18,7 @@ const HeroSection = () => {
         </p>
         <Button>Apply Now</Button>
       </div>
-      <div className="w-full md:w-[49%]">
+      <div className="w-full">
         <Image
           src="/hero.svg"
           alt="Hero image"

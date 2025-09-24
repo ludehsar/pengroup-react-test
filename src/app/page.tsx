@@ -1,6 +1,7 @@
 import CoursesSection from "@/components/landing/courses-section";
 import Header from "@/components/landing/header";
 import HeroSection from "@/components/landing/hero-section";
+import QuoteSection from "@/components/landing/quote-section";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <HeroSection />
       <CoursesSection />
+      <QuoteSection />
     </main>
   );
 }

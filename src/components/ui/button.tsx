@@ -22,7 +22,7 @@ const ButtonVariants: ButtonVariantsFunction = cva(
       variant: {
         default: "bg-primary hover:bg-primary/80 text-black",
         outlined:
-          "bg-transparent hover:bg-primary/40 text-primary border border-primary",
+          "bg-transparent hover:bg-primary/20 text-primary border border-primary",
       },
     },
 
