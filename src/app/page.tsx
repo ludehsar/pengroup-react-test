@@ -1,3 +1,4 @@
+import CoursesSection from "@/components/landing/courses-section";
 import Header from "@/components/landing/header";
 import HeroSection from "@/components/landing/hero-section";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <main className="mx-auto max-w-[1761px] p-8 font-sans">
       <Header />
       <HeroSection />
+      <CoursesSection />
     </main>
   );
 }

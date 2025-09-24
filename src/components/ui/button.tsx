@@ -16,12 +16,13 @@ type ButtonProps = ButtonVariantsProps & {
 type ButtonVariantsFunction = (props: ButtonVariantsProps) => string;
 
 const ButtonVariants: ButtonVariantsFunction = cva(
-  "transition-colors duration-150 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed focus:outline-none text-2xl font-black px-12 py-2",
+  "transition-colors duration-150 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed focus:outline-none text-2xl font-black px-8 py-2",
   {
     variants: {
       variant: {
         default: "bg-primary hover:bg-primary/80 text-black",
-        outlined: "bg-transparent hover:bg-primary/40 text-primary",
+        outlined:
+          "bg-transparent hover:bg-primary/40 text-primary border border-primary",
       },
     },
 
