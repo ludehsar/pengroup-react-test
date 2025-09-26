@@ -1,5 +1,6 @@
 import CampusSection from "@/components/landing/campus-section";
 import CoursesSection from "@/components/landing/courses-section";
+import Footer from "@/components/landing/footer";
 import Header from "@/components/landing/header";
 import HeroSection from "@/components/landing/hero-section";
 import PartnerInstitutionSection from "@/components/landing/partner-institutions-section";
@@ -18,6 +19,7 @@ export default function Home() {
       <PartnerInstitutionSection />
       <StudentTestimonialsSection />
       <StoriesSection />
+      <Footer />
     </main>
   );
 }
