@@ -4,12 +4,12 @@ import Button from "../ui/button";
 
 const HeroSection = () => {
   return (
-    <header className="flex min-h-screen flex-col-reverse items-center justify-between px-4 pb-16 md:flex-row md:px-0">
+    <header className="flex min-h-screen flex-col-reverse items-center justify-between px-4 pb-16 xl:flex-row xl:px-0">
       <div className="w-full max-w-[820px] space-y-8">
         <h1 className="align-middle text-4xl leading-[100%] font-black tracking-[0%] uppercase sm:text-6xl lg:text-[150px]">
           Welcome to VCAD
         </h1>
-        <p className="text-lg md:text-2xl">
+        <p className="text-lg lg:text-2xl">
           Our team at Victoria College of Arts and Design is passionate about
           creating innovative projects and generating new ideas. We work with a
           variety of experts and esteemed companies using a collaborative

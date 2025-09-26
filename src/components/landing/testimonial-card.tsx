@@ -26,7 +26,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
 }) => {
   return (
     <div
-      className={`relative h-[706px] w-[496px] flex-shrink-0 rotate-[13.89deg] transform bg-[#E018E0] p-[3px]`}
+      className={`relative h-[400px] lg:h-[706px] w-[280px] lg:w-[496px] flex-shrink-0 rotate-[13.89deg] transform bg-[#E018E0] p-[2px] lg:p-[3px]`}
     >
       <div className="relative h-full w-full overflow-hidden bg-[#061665CC]">
         <div className="absolute inset-0">
@@ -40,14 +40,14 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
 
         <div className="absolute inset-0 bg-gradient-to-b from-[#4A5FBF]/70 via-[#3B4DB8]/60 to-[#2D3B8F]/80" />
 
-        <div className="relative z-10 flex h-full rotate-[-13.89deg] flex-col items-start justify-center p-8 pl-20">
+        <div className="relative z-10 flex h-full rotate-[-13.89deg] flex-col items-start justify-center p-4 lg:p-8 pl-8 lg:pl-20">
           <div className="text-white">
-            <blockquote className="mb-6 text-[48px] leading-tight font-black uppercase">
+            <blockquote className="mb-4 lg:mb-6 text-2xl lg:text-[48px] leading-tight font-black uppercase">
               &ldquo;{message}&ldquo;
             </blockquote>
 
             <div className="mb-4 space-y-1">
-              <p className="text-base font-bold tracking-wide uppercase">
+              <p className="text-sm lg:text-base font-bold tracking-wide uppercase">
                 {name} \{age} \{course.toUpperCase()}
               </p>
             </div>

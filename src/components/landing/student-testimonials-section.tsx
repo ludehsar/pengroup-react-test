@@ -13,16 +13,19 @@ const StudentTestimonialsSection = async () => {
     const testimonials: Testimonial[] = await response.json();
 
     return (
-      <section id="student-testimonials" className="relative overflow-hidden py-20">
-        <h2 className="mb-[120px] align-middle text-[64px] leading-[100%] font-black tracking-[0%] uppercase">
+      <section
+        id="student-testimonials"
+        className="relative overflow-hidden py-10 lg:py-20"
+      >
+        <h2 className="mb-8 align-middle text-3xl leading-[100%] font-black tracking-[0%] uppercase sm:text-4xl md:text-5xl lg:mb-[120px] lg:text-[64px]">
           Student <br />
           <span className="relative">
             Testimonials
-            <div className="absolute bottom-3 z-[-1] h-[22px] w-full bg-[#8EC8EE]" />
+            <div className="absolute bottom-0 z-[-1] h-[22px] w-full bg-[#8EC8EE] lg:bottom-3" />
           </span>
         </h2>
 
-        <div className="no-scrollbar flex gap-40 overflow-x-scroll p-20">
+        <div className="no-scrollbar flex gap-8 overflow-x-scroll p-4 lg:gap-40 lg:p-20">
           {testimonials.map((testimonial, index) => (
             <TestimonialCard
               key={testimonial.id}
@@ -43,12 +46,15 @@ const StudentTestimonialsSection = async () => {
   } catch (error) {
     console.error("Error fetching testimonials:", error);
     return (
-      <section id="student-testimonials" className="relative overflow-hidden py-20">
-        <h2 className="mb-[120px] align-middle text-[64px] leading-[100%] font-black tracking-[0%] uppercase">
+      <section
+        id="student-testimonials"
+        className="relative overflow-hidden py-10 lg:py-20"
+      >
+        <h2 className="mb-8 align-middle text-3xl leading-[100%] font-black tracking-[0%] uppercase sm:text-4xl md:text-5xl lg:mb-[120px] lg:text-[64px]">
           Student <br />
           <span className="relative">
             Testimonials
-            <div className="absolute bottom-3 z-[-1] h-[22px] w-full bg-[#8EC8EE]" />
+            <div className="absolute bottom-0 z-[-1] h-[22px] w-full bg-[#8EC8EE] lg:bottom-3" />
           </span>
         </h2>
 

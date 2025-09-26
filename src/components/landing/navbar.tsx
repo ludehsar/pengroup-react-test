@@ -12,13 +12,16 @@ const navbarItems = [
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState<string>("");
 
-  const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+  const handleSmoothScroll = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    href: string,
+  ) => {
     e.preventDefault();
     const targetElement = document.querySelector(href);
     if (targetElement) {
       targetElement.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
+        behavior: "smooth",
+        block: "start",
       });
     }
   };
@@ -77,14 +80,14 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="border-accent bg-background fixed bottom-10 left-[50%] z-50 h-[79px] w-fit translate-x-[-50%] border p-8 shadow-xs">
+    <nav className="border-accent bg-background fixed bottom-10 left-[50%] z-50 hidden h-[79px] w-fit translate-x-[-50%] border p-8 shadow-xs lg:block">
       <ul className="flex h-full items-center gap-8 uppercase">
         {navbarItems.map((item) => (
           <li key={item.title}>
             <a
               href={item.href}
               onClick={(e) => handleSmoothScroll(e, item.href)}
-              className={`transition-all duration-200 hover:font-black cursor-pointer ${
+              className={`cursor-pointer transition-all duration-200 hover:font-black ${
                 activeSection === item.href ? "font-black" : "font-normal"
               }`}
             >

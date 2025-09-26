@@ -11,7 +11,7 @@ import StudentTestimonialsSection from "@/components/landing/student-testimonial
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-[1761px] scroll-smooth p-8 font-sans">
+    <main className="mx-auto max-w-[1761px] scroll-smooth p-4 sm:p-6 lg:p-8 font-sans">
       <Navbar />
       <Header />
       <HeroSection />
