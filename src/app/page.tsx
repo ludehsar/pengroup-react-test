@@ -4,6 +4,7 @@ import Header from "@/components/landing/header";
 import HeroSection from "@/components/landing/hero-section";
 import PartnerInstitutionSection from "@/components/landing/partner-institutions-section";
 import QuoteSection from "@/components/landing/quote-section";
+import StudentTestimonialsSection from "@/components/landing/student-testimonials-section";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <QuoteSection />
       <CampusSection />
       <PartnerInstitutionSection />
+      <StudentTestimonialsSection />
     </main>
   );
 }
