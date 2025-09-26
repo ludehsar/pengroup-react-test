@@ -13,7 +13,7 @@ const HeroSection = () => {
           Our team at Victoria College of Arts and Design is passionate about
           creating innovative projects and generating new ideas. We work with a
           variety of experts and esteemed companies using a collaborative
-          approach. Located in London's Design District, we have valuable
+          approach. Located in London&apos;s Design District, we have valuable
           connections within our industry. Search our latest courses.
         </p>
         <Button>Apply Now</Button>

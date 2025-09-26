@@ -1,7 +1,5 @@
-import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import React from "react";
-import Button from "../ui/button";
 
 const PartnerInstitutionSection = () => {
   return (

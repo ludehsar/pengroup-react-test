@@ -10,7 +10,6 @@ type ButtonVariantsProps = {
 type ButtonProps = ButtonVariantsProps & {
   customClassNames?: string;
   children: React.ReactNode;
-  [key: string]: any;
 };
 
 type ButtonVariantsFunction = (props: ButtonVariantsProps) => string;

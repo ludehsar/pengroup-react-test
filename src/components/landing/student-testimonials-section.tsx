@@ -26,7 +26,7 @@ const StudentTestimonialsSection = async () => {
         </h2>
 
         <div className="no-scrollbar flex gap-20 overflow-x-scroll p-20 lg:gap-40">
-          {testimonials.map((testimonial, index) => (
+          {testimonials.map((testimonial) => (
             <TestimonialCard
               key={testimonial.id}
               id={testimonial.id}
