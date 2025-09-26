@@ -5,7 +5,10 @@ import Button from "../ui/button";
 
 const PartnerInstitutionSection = () => {
   return (
-    <section className="flex items-start justify-between gap-8 py-20">
+    <section
+      id="partner-institutions"
+      className="flex items-start justify-between gap-8 py-60"
+    >
       <div className="flex h-full w-full max-w-[722px] flex-1 flex-col items-start justify-between">
         <h2 className="mb-[120px] align-middle text-[64px] leading-[100%] font-black tracking-[0%] uppercase">
           Partner <br />

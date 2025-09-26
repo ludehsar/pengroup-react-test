@@ -4,7 +4,7 @@ import Button from "../ui/button";
 
 const StoriesSection = () => {
   return (
-    <section className="space-y-12 py-20">
+    <section id="stories" className="space-y-12 py-20">
       <h2 className="align-middle text-[64px] leading-[100%] font-black tracking-[0%] uppercase">
         <span className="relative">
           Stories

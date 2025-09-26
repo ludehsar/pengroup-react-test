@@ -13,7 +13,7 @@ const StudentTestimonialsSection = async () => {
     const testimonials: Testimonial[] = await response.json();
 
     return (
-      <section className="relative overflow-hidden py-20">
+      <section id="student-testimonials" className="relative overflow-hidden py-20">
         <h2 className="mb-[120px] align-middle text-[64px] leading-[100%] font-black tracking-[0%] uppercase">
           Student <br />
           <span className="relative">
@@ -43,7 +43,7 @@ const StudentTestimonialsSection = async () => {
   } catch (error) {
     console.error("Error fetching testimonials:", error);
     return (
-      <section className="relative overflow-hidden py-20">
+      <section id="student-testimonials" className="relative overflow-hidden py-20">
         <h2 className="mb-[120px] align-middle text-[64px] leading-[100%] font-black tracking-[0%] uppercase">
           Student <br />
           <span className="relative">

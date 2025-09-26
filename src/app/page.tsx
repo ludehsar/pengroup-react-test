@@ -3,6 +3,7 @@ import CoursesSection from "@/components/landing/courses-section";
 import Footer from "@/components/landing/footer";
 import Header from "@/components/landing/header";
 import HeroSection from "@/components/landing/hero-section";
+import Navbar from "@/components/landing/navbar";
 import PartnerInstitutionSection from "@/components/landing/partner-institutions-section";
 import QuoteSection from "@/components/landing/quote-section";
 import StoriesSection from "@/components/landing/stories-section";
@@ -10,7 +11,8 @@ import StudentTestimonialsSection from "@/components/landing/student-testimonial
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-[1761px] p-8 font-sans">
+    <main className="mx-auto max-w-[1761px] scroll-smooth p-8 font-sans">
+      <Navbar />
       <Header />
       <HeroSection />
       <CoursesSection />

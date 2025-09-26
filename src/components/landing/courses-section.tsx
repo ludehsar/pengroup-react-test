@@ -4,7 +4,7 @@ import Button from "../ui/button";
 
 const CoursesSection = () => {
   return (
-    <section className="flex items-start justify-between gap-8 py-20">
+    <section id="courses" className="flex items-start justify-between gap-8 py-20">
       <Image
         src="/course-section-img.jpg"
         alt="Course"

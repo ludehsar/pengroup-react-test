@@ -4,12 +4,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="flex items-center justify-between pt-[120px]">
+    <footer className="flex items-center justify-between pt-40 pb-[120px]">
       <div className="space-y-4">
         <Image src="/logo.svg" alt="Logo" width={184} height={69} />
         <p>
-          &copy; {new Date().getFullYear()} Victoria College of Arts and Design,
-          All rights reserved.
+          &copy; 2025 Victoria College of Arts and Design, All rights reserved.
         </p>
       </div>
       <div className="flex items-center gap-8 border border-[#8EC7EE] px-8 py-2 text-2xl text-[#8EC8EE]">

@@ -4,7 +4,7 @@ import Button from "../ui/button";
 
 const HeroSection = () => {
   return (
-    <section className="flex min-h-screen flex-col-reverse items-center justify-between px-4 pb-16 md:flex-row md:px-0">
+    <header className="flex min-h-screen flex-col-reverse items-center justify-between px-4 pb-16 md:flex-row md:px-0">
       <div className="w-full max-w-[820px] space-y-8">
         <h1 className="align-middle text-4xl leading-[100%] font-black tracking-[0%] uppercase sm:text-6xl lg:text-[150px]">
           Welcome to VCAD
@@ -27,7 +27,7 @@ const HeroSection = () => {
           className="h-auto w-full max-w-full object-contain"
         />
       </div>
-    </section>
+    </header>
   );
 };
 

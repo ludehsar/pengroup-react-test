@@ -4,7 +4,7 @@ import React from "react";
 
 const CampusSection = () => {
   return (
-    <section className="relative mt-[200px] flex h-[771px] flex-col items-center justify-end gap-12 bg-[#061665CC] py-[150px]">
+    <section id="campuses" className="relative mt-[200px] flex h-[771px] flex-col items-center justify-end gap-12 bg-[#061665CC] py-[150px]">
       <div className="absolute top-[-100px] left-[50%] flex translate-x-[-50%] items-center justify-center gap-2">
         <div className="relative h-[484px] w-[245px] overflow-hidden">
           <div className="bg-primary absolute top-0 left-0 flex w-full items-center justify-between px-2 py-1 text-xl font-black text-[#061665]">
