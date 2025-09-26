@@ -17,7 +17,7 @@ const CoursesSection = () => {
       />
       <div className="w-full max-w-[791px] flex-1 space-y-8">
         <h2 className="mb-4 align-middle text-3xl leading-[100%] font-black tracking-[0%] uppercase sm:text-4xl md:text-5xl lg:mb-8 lg:text-[64px]">
-          What will you{" "}
+          What will you <br />
           <span className="relative">
             study?
             <div className="absolute bottom-0 z-[-1] h-[22px] w-full bg-[#061665] lg:bottom-3" />
