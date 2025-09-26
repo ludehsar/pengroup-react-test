@@ -9,7 +9,7 @@ const StudentTestimonialsSection = async () => {
       ? `https://${process.env.VERCEL_URL}`
       : process.env.NODE_ENV === "development"
         ? "http://localhost:3000"
-        : "https://pengroup-react-test.vercel.app/";
+        : "https://pengroup-react-test.vercel.app";
 
     const response = await fetch(`${baseUrl}/api/testimonials`);
 
