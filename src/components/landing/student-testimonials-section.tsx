@@ -4,12 +4,7 @@ import { Testimonial } from "../../app/api/testimonials/route";
 
 const StudentTestimonialsSection = async () => {
   try {
-    // Construct the full URL for the API call
-    const baseUrl = process.env.VERCEL_URL
-      ? `https://${process.env.VERCEL_URL}`
-      : process.env.NODE_ENV === "development"
-        ? "http://localhost:3000"
-        : "https://pengroup-react-test.vercel.app";
+    const baseUrl = "https://pengroup-react-test.vercel.app";
 
     const response = await fetch(`${baseUrl}/api/testimonials`);
 
